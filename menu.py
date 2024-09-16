@@ -211,8 +211,8 @@ for item in order:
 
 
     # 8. Calculate the number of spaces for formatted printing
-    num_item_spaces = 24 - len(item_name)
-    num_price_spaces = 8 - len(str(price))
+    num_item_spaces = 25 - len(item_name)
+    num_price_spaces = 5 - len(str(price))
     
 
 
@@ -226,9 +226,9 @@ for item in order:
 
 
 # 11. Calculate the cost of the order using list comprehension
-total = sum([item["Price"] * item["Quantity"] for item in order])
-print(f"Total: ${total}")
 
 # Multiply the price by quantity for each item in the order list, then sum()
 # the total to get the total cost of the order.
 # and print the prices.
+total = sum([item["Price"] * item["Quantity"] for item in order])
+print(f"Total: ${total}")
