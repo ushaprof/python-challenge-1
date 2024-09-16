@@ -7,4 +7,4 @@ The order system is set up to notify customer of items that are available and th
 After each ordered item, customer is asked they would like to order more items.  
 After customer has indicated that there are no more items to order, final order is printed out listing total order price alongwith each menu item's total cost and quantities ordered.
 
-<img src=“https://github.com/ushaprof/python-challenge-1/blob/main/Images/FoodTruckMenuScreenshot.png”/>
+<img src="https://github.com/ushaprof/python-challenge-1/blob/main/Images/FoodTruckMenuScreenshot.png"/>
